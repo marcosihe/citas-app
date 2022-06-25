@@ -1,12 +1,15 @@
-import Formulario from "./components/Formulario"
-import Header from "./components/Header"
-import ListadoPacientes from "./components/ListadoPacientes"
+import Header from "./components/Header";
+import Formulario from "./components/Formulario";
 
 function App() {
   return (
-    <>
-    </>
-  )
+    <div>
+      <Header />
+      <div>
+        <Formulario />
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;

@@ -5,9 +5,6 @@ import ListadoPacientes from "./components/ListadoPacientes"
 function App() {
   return (
     <>
-      <Header />
-      <Formulario />
-      <ListadoPacientes />
     </>
   )
 }

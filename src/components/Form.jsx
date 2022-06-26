@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Error from "./Error";
 
-const Formulario = ({ patients, setPatients }) => {
+const Form = ({ patients, setPatients }) => {
   const [name, setName] = useState("");
   const [owner, setOwner] = useState("");
   const [email, setEmail] = useState("");
@@ -146,4 +146,4 @@ const Formulario = ({ patients, setPatients }) => {
   );
 };
 
-export default Formulario;
+export default Form;
